@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Umair Ali — AI/ML & Data Engineer</title>
-<meta name="description" content="AI/ML & Data Engineer in Copenhagen building production ML systems. Two live GCP platforms: Nordic energy price forecasting and SaaS trading analytics. 8- and 6-model neural ensembles, bitemporal pipelines, automated MLOps.">
+<meta name="description" content="AI/ML & Data Engineer in Copenhagen building production ML systems. Two live GCP platforms: Nordic energy price forecasting and SaaS trading analytics. 7- and 6-model neural ensembles, bitemporal pipelines, automated MLOps.">
 <link rel="canonical" href="https://ituhub.github.io/portfolio/">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://ituhub.github.io/portfolio/">
@@ -283,14 +283,14 @@ footer { background: #0A1929; text-align: center; padding: 24px 0; font-size: 0.
       </video>
       <figcaption>Product walkthrough &mdash; landing page, signal dashboard, quality gate and paper-trading engine (1:11)</figcaption>
     </figure>
-    <p class="project-desc">A production SaaS platform built on Google Cloud Run. It orchestrates an <strong>8-model neural ensemble</strong> — Transformer, CNN-LSTM-Attention, TCN, N-BEATS, LSTM-GRU, XGBoost, Sklearn Ensemble, and Enhanced Informer — across a <strong>zero-touch automation pipeline</strong>. Real-time data ingestion feeds automated feature extraction of 50+ indicators, flows through ensemble inference and a 5-check quality gate, and delivers results via Telegram and API. Signals cover <strong>19 asset classes</strong> across three timeframes with sub-second inference.</p>
+    <p class="project-desc">A production SaaS platform built on Google Cloud Run. It orchestrates a <strong>7-model neural ensemble</strong> — Transformer, CNN-LSTM-Attention, TCN, N-BEATS, LSTM-GRU, XGBoost, Sklearn Ensemble, and Enhanced Informer — across a <strong>zero-touch automation pipeline</strong>. Real-time data ingestion feeds automated feature extraction of 50+ indicators, flows through ensemble inference and a 5-check quality gate, and delivers results via Telegram and API. Signals cover <strong>19 asset classes</strong> across three timeframes with sub-second inference.</p>
     <div class="pipeline-label">End-to-End Automation Flow</div>
     <div class="pipeline fade-up">
       <div class="pipeline-step step-ingest"><div class="step-name">Data Ingestion</div><div class="step-detail">WebSocket &bull; FMP &bull; FRED</div></div>
       <div class="pipeline-arrow">&rarr;</div>
       <div class="pipeline-step step-feature"><div class="step-name">Feature Engineering</div><div class="step-detail">50+ indicators per asset</div></div>
       <div class="pipeline-arrow">&rarr;</div>
-      <div class="pipeline-step step-model"><div class="step-name">8-Model Ensemble</div><div class="step-detail">Deep learning + ML stack</div></div>
+      <div class="pipeline-step step-model"><div class="step-name">7-Model Ensemble</div><div class="step-detail">Deep learning + ML stack</div></div>
       <div class="pipeline-arrow">&rarr;</div>
       <div class="pipeline-step step-gate"><div class="step-name">Quality Gate</div><div class="step-detail">5-check validation</div></div>
       <div class="pipeline-arrow">&rarr;</div>
