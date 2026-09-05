@@ -4,16 +4,16 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Umair Ali — AI/ML & Data Engineer</title>
-<meta name="description" content="AI/ML & Data Engineer in Copenhagen building production ML systems. Two live GCP platforms: Nordic energy price forecasting and SaaS trading analytics. 8- and 6-model neural ensembles, bitemporal pipelines, automated MLOps.">
+<meta name="description" content="AI/ML & Data Engineer in Copenhagen building production ML systems. Two live GCP platforms: Nordic energy price forecasting and SaaS trading analytics. 7- and 6-model neural ensembles, bitemporal pipelines, automated MLOps.">
 <link rel="canonical" href="https://ituhub.github.io/portfolio/">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://ituhub.github.io/portfolio/">
 <meta property="og:title" content="Umair Ali — AI/ML & Data Engineer">
-<meta property="og:description" content="Two live ML platforms on Google Cloud. Nordic energy price forecasting and SaaS trading analytics — designed, built, deployed and operated.">
+<meta property="og:description" content="Two ML platforms in production on Google Cloud. Nordic energy price forecasting and SaaS trading analytics — built and operated end to end.">
 <meta property="og:image" content="https://ituhub.github.io/portfolio/assets/og-preview.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Umair Ali — AI/ML & Data Engineer">
-<meta name="twitter:description" content="Two live ML platforms on Google Cloud, built and operated.">
+<meta name="twitter:description" content="Two ML platforms in production on Google Cloud, built and operated end to end.">
 <meta name="twitter:image" content="https://ituhub.github.io/portfolio/assets/og-preview.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
@@ -61,14 +61,14 @@ nav ul a:hover { color: #00BCD4; }
 }
 .hero .container { position: relative; z-index: 1; }
 .hero-eyebrow { font-family: 'Space Grotesk', sans-serif; font-size: 0.82rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: #00BCD4; margin-bottom: 16px; }
-.hero h1 { font-size: clamp(2.2rem, 5vw, 3.6rem); color: #fff; margin-bottom: 20px; max-width: 700px; }
+.hero h1 { font-size: clamp(2rem, 4.4vw, 3.2rem); color: #fff; margin-bottom: 20px; max-width: 820px; }
 .hero h1 em { font-style: normal; background: linear-gradient(135deg, #1E88E5, #00BCD4); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
-.hero-sub { font-size: 1.1rem; color: rgba(255,255,255,0.65); max-width: 560px; margin-bottom: 36px; line-height: 1.7; }
-.hero-stats { display: flex; gap: 40px; flex-wrap: wrap; }
-.hero-stat .num { font-family: 'Space Grotesk', sans-serif; font-size: 2rem; font-weight: 700; color: #fff; }
-.hero-stat .num span { color: #00BCD4; }
-.hero-stat .label { font-size: 0.78rem; color: rgba(255,255,255,0.45); text-transform: uppercase; letter-spacing: 0.08em; margin-top: 2px; }
-.hero-links { margin-top: 36px; display: flex; gap: 16px; flex-wrap: wrap; }
+.hero-sub { font-size: 1.05rem; color: rgba(255,255,255,0.65); max-width: 680px; margin-bottom: 40px; line-height: 1.7; }
+.hero-caps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; max-width: 960px; }
+.hero-cap { border-top: 2px solid rgba(0,188,212,0.5); padding-top: 14px; }
+.hero-cap h3 { font-size: 0.95rem; color: #fff; margin-bottom: 6px; }
+.hero-cap p { font-size: 0.85rem; color: rgba(255,255,255,0.62); line-height: 1.6; max-width: none; }
+.hero-links { margin-top: 40px; display: flex; gap: 16px; flex-wrap: wrap; }
 .hero-links a { display: inline-flex; align-items: center; gap: 8px; padding: 10px 22px; border-radius: 6px; font-size: 0.85rem; font-weight: 600; transition: all 0.2s; }
 .btn-primary { background: linear-gradient(135deg, #1E88E5, #1565C0); color: #fff !important; }
 .btn-primary:hover { transform: translateY(-1px); box-shadow: 0 4px 20px rgba(30,136,229,0.35); }
@@ -186,7 +186,7 @@ footer { background: #0A1929; text-align: center; padding: 24px 0; font-size: 0.
 
 @media (max-width: 768px) {
   .about-grid, .feature-grid, .approach-grid, .gcp-grid { grid-template-columns: 1fr; }
-  .hero-stats { gap: 24px; }
+  .hero-caps { grid-template-columns: 1fr; gap: 22px; }
   .pipeline-step { min-width: 100px; padding: 12px 10px; }
   nav ul { gap: 16px; }
   nav ul a { font-size: 0.72rem; }
@@ -224,17 +224,26 @@ footer { background: #0A1929; text-align: center; padding: 24px 0; font-size: 0.
 
 <section class="hero">
   <div class="container">
-    <div class="hero-eyebrow">AI/ML & Data Engineer &bull; Copenhagen, Denmark</div>
-    <h1>I build AI systems <br>that <em>run themselves</em></h1>
+    <div class="hero-eyebrow">AI/ML &amp; Data Engineer &bull; Copenhagen, Denmark</div>
+    <h1>Two ML platforms <em>in production</em>.<br>One person built and runs both.</h1>
     <p class="hero-sub">
-      From neural architecture design to fully automated cloud pipelines.
-      Two production platforms live on Google Cloud — designed, built, deployed and operated.
+      Nordic day-ahead electricity price forecasting, and a trading analytics SaaS with paying
+      subscribers. I own both end to end &mdash; ingestion, features, models, cloud infrastructure,
+      monitoring, and the product wrapped around them.
     </p>
-    <div class="hero-stats">
-      <div class="hero-stat"><div class="num">2</div><div class="label">Live Platforms</div></div>
-      <div class="hero-stat"><div class="num">568K<span>+</span></div><div class="label">Records Ingested</div></div>
-      <div class="hero-stat"><div class="num">19</div><div class="label">Asset Classes</div></div>
-      <div class="hero-stat"><div class="num">12K<span>+</span></div><div class="label">Forecasts Scored</div></div>
+    <div class="hero-caps">
+      <div class="hero-cap">
+        <h3>Ship models, not notebooks</h3>
+        <p>From architecture design to a containerised service on Cloud Run that runs unattended for weeks.</p>
+      </div>
+      <div class="hero-cap">
+        <h3>Build the pipeline underneath</h3>
+        <p>Live feeds, quality gates, deduplication, retention, and storage designed so a backtest cannot cheat.</p>
+      </div>
+      <div class="hero-cap">
+        <h3>Prove whether it works</h3>
+        <p>Walk-forward validation, drift monitoring, and every forecast scored against what actually happened.</p>
+      </div>
     </div>
     <div class="hero-links">
       <a href="mailto:malik.ali642@gmail.com" class="btn-primary">Get in Touch</a>
@@ -251,7 +260,7 @@ footer { background: #0A1929; text-align: center; padding: 24px 0; font-size: 0.
     <h2>Full-Stack AI, Solo-Built at Scale</h2>
     <div class="about-grid fade-up">
       <div class="about-text">
-        <p>I'm an <strong>AI/ML & Data Engineer</strong> based in Copenhagen with 3+ years of hands-on experience building production-grade machine learning systems and data platforms. I don't just train models — I design, build, deploy, and monitor the entire infrastructure that keeps them running reliably in production.</p>
+        <p>I'm an <strong>AI/ML &amp; Data Engineer</strong> based in Copenhagen with 3+ years of hands-on experience building production-grade machine learning systems and data platforms. I don't just train models — I design, build, deploy, and monitor the entire infrastructure that keeps them running reliably in production.</p>
         <p>My two flagship platforms — <strong>MarketLens</strong> (SaaS trading analytics) and <strong>EnergyLens</strong> (Nordic energy forecasting) — are both live in production on GCP Cloud Run, orchestrating neural ensembles across fully automated pipelines. I recently completed a <strong>six-stage GCP data engineering build</strong> covering BigQuery, PostgreSQL, Pub/Sub + Beam, Airflow, dbt, and PySpark — all on real production data.</p>
         <p><strong>Stanford-trained in ML</strong>, certified by AWS and Google, with domain expertise in financial data, energy markets, time series forecasting, and real-time systems. Fluent in Danish, English, and Urdu.</p>
       </div>
@@ -284,26 +293,26 @@ footer { background: #0A1929; text-align: center; padding: 24px 0; font-size: 0.
       </video>
       <figcaption>Product walkthrough &mdash; landing page, signal dashboard, quality gate and paper-trading engine (1:11)</figcaption>
     </figure>
-    <p class="project-desc">A production SaaS platform built on Google Cloud Run. It orchestrates an <strong>8-model neural ensemble</strong> — Transformer, CNN-LSTM-Attention, TCN, N-BEATS, LSTM-GRU, XGBoost, Sklearn Ensemble, and Enhanced Informer — across a <strong>zero-touch automation pipeline</strong>. Real-time data ingestion feeds automated feature extraction of 50+ indicators, flows through ensemble inference and a 5-check quality gate, and delivers results via Telegram and API. Signals cover <strong>19 asset classes</strong> across three timeframes with sub-second inference.</p>
+    <p class="project-desc">A production SaaS platform built on Google Cloud Run. It orchestrates a <strong>7-model neural ensemble</strong> &mdash; Transformer, CNN-LSTM-Attention, TCN, N-BEATS, LSTM-GRU, Enhanced Informer and XGBoost &mdash; across a <strong>zero-touch automation pipeline</strong>. Real-time data ingestion feeds automated feature extraction of 50+ indicators, flows through ensemble inference and a 5-check quality gate, and delivers results via Telegram and API. Signals cover <strong>19 instruments</strong> spanning crypto, forex, commodities and indices, across three timeframes with sub-second inference.</p>
     <div class="pipeline-label">End-to-End Automation Flow</div>
     <div class="pipeline fade-up">
       <div class="pipeline-step step-ingest"><div class="step-name">Data Ingestion</div><div class="step-detail">WebSocket &bull; FMP &bull; FRED</div></div>
       <div class="pipeline-arrow">&rarr;</div>
       <div class="pipeline-step step-feature"><div class="step-name">Feature Engineering</div><div class="step-detail">50+ indicators per asset</div></div>
       <div class="pipeline-arrow">&rarr;</div>
-      <div class="pipeline-step step-model"><div class="step-name">8-Model Ensemble</div><div class="step-detail">Deep learning + ML stack</div></div>
+      <div class="pipeline-step step-model"><div class="step-name">7-Model Ensemble</div><div class="step-detail">Deep learning + ML stack</div></div>
       <div class="pipeline-arrow">&rarr;</div>
       <div class="pipeline-step step-gate"><div class="step-name">Quality Gate</div><div class="step-detail">5-check validation</div></div>
       <div class="pipeline-arrow">&rarr;</div>
       <div class="pipeline-step step-deliver"><div class="step-name">Automated Delivery</div><div class="step-detail">Telegram &bull; API &bull; Dashboard</div></div>
     </div>
     <div class="feature-grid fade-up">
-      <div class="feature-card"><h3>Self-Healing MLOps</h3><p>Drift detection triggers automated GPU retraining via Kaggle. GCS model versioning with webhook-driven hot-reload. Zero-downtime deployments.</p></div>
+      <div class="feature-card"><h3>Self-Healing MLOps</h3><p>Scheduled GPU retraining on Kaggle, GCS model versioning and webhook-driven hot-reload. Zero-downtime deployments with no redeploy.</p></div>
       <div class="feature-card"><h3>SHAP Explainability</h3><p>Per-prediction feature importance analysis for model transparency and compliance. Every output is interpretable and auditable.</p></div>
-      <div class="feature-card"><h3>Risk Controls</h3><p>Institutional-grade risk management: VaR calculations, Kelly Criterion position sizing, max drawdown limits, and dynamic SL/TP per asset class.</p></div>
+      <div class="feature-card"><h3>Risk Controls</h3><p>Fixed-fractional position sizing, volatility-scaled stops, graduated profit targets and max drawdown limits per asset class.</p></div>
       <div class="feature-card"><h3>Automated Billing</h3><p>Stripe integration with 3 subscription tiers, Firebase Auth, per-user Firestore data isolation. Event-driven, fully automated.</p></div>
       <div class="feature-card"><h3>dbt Data Pipelines</h3><p>dbt Core transformation layer with 22 automated tests across 1,718 predictions, 461 execution records, 252 drift logs, 242 equity snapshots.</p></div>
-      <div class="feature-card"><h3>RAG Chatbot</h3><p>Gemini embeddings (768-dim), Firestore cosine KNN vector search, LLM generation over 29-document knowledge base for intelligent Q&A.</p></div>
+      <div class="feature-card"><h3>RAG Chatbot</h3><p>Gemini embeddings (768-dim), Firestore cosine KNN vector search, LLM generation over 29-document knowledge base for intelligent Q&amp;A.</p></div>
     </div>
 
     <hr class="project-divider">
@@ -331,7 +340,7 @@ footer { background: #0A1929; text-align: center; padding: 24px 0; font-size: 0.
       <div class="pipeline-arrow">&rarr;</div>
       <div class="pipeline-step step-feature"><div class="step-name">Feature Pipeline</div><div class="step-detail">110+ engineered features</div></div>
       <div class="pipeline-arrow">&rarr;</div>
-      <div class="pipeline-step step-model"><div class="step-name">6-Model Ensemble</div><div class="step-detail">Transformer &bull; TCN &bull; N-BEATS</div></div>
+      <div class="pipeline-step step-model"><div class="step-name">6-Model Ensemble</div><div class="step-detail">CNN-LSTM &bull; TCN &bull; N-BEATS</div></div>
       <div class="pipeline-arrow">&rarr;</div>
       <div class="pipeline-step step-gate"><div class="step-name">5-Gate Quality</div><div class="step-detail">Confidence &bull; Consensus</div></div>
       <div class="pipeline-arrow">&rarr;</div>
@@ -434,7 +443,7 @@ footer { background: #0A1929; text-align: center; padding: 24px 0; font-size: 0.
       <span class="tech-pill" style="background:#EDE7F6;color:#311B92;">PostgreSQL</span>
       <span class="tech-pill" style="background:#E3F2FD;color:#1565C0;">Parquet</span>
     </div></div>
-    <div class="tech-group"><div class="tech-group-label">Cloud & Infrastructure</div><div class="tech-pills">
+    <div class="tech-group"><div class="tech-group-label">Cloud &amp; Infrastructure</div><div class="tech-pills">
       <span class="tech-pill" style="background:#E3F2FD;color:#1565C0;">GCP Cloud Run</span>
       <span class="tech-pill" style="background:#E3F2FD;color:#1565C0;">Cloud Storage</span>
       <span class="tech-pill" style="background:#E3F2FD;color:#1565C0;">Cloud Scheduler</span>
@@ -444,7 +453,7 @@ footer { background: #0A1929; text-align: center; padding: 24px 0; font-size: 0.
       <span class="tech-pill" style="background:#ECEFF1;color:#37474F;">Git</span>
       <span class="tech-pill" style="background:#FBE9E7;color:#BF360C;">Firebase</span>
     </div></div>
-    <div class="tech-group"><div class="tech-group-label">Automation & APIs</div><div class="tech-pills">
+    <div class="tech-group"><div class="tech-group-label">Automation &amp; APIs</div><div class="tech-pills">
       <span class="tech-pill" style="background:#E8F5E9;color:#00695C;">FastAPI</span>
       <span class="tech-pill" style="background:#E3F2FD;color:#1565C0;">Asyncio</span>
       <span class="tech-pill" style="background:#FFF3E0;color:#E65100;">WebSocket</span>
@@ -461,7 +470,7 @@ footer { background: #0A1929; text-align: center; padding: 24px 0; font-size: 0.
 <section id="certs" style="background:#fff;">
   <div class="container">
     <div class="section-label">Credentials</div>
-    <h2>Education & Certifications</h2>
+    <h2>Education &amp; Certifications</h2>
     <div class="certs-grid fade-up">
       <div class="cert-card" style="border-top:3px solid #FF9800;"><h3>AWS Cloud Practitioner</h3><div class="issuer">Amazon Web Services</div><div class="year">2024</div></div>
       <div class="cert-card" style="border-top:3px solid #4285F4;"><h3>Advanced Data Analytics</h3><div class="issuer">Google</div><div class="year">2023</div></div>
@@ -488,8 +497,8 @@ footer { background: #0A1929; text-align: center; padding: 24px 0; font-size: 0.
 <section id="contact" class="cta-section">
   <div class="container">
     <div class="section-label" style="color:#00BCD4;">Let's Connect</div>
-    <h2>Open to AI/ML, Data Engineering & ML Platform Roles</h2>
-    <p>Copenhagen-based &bull; Open to remote & relocation &bull; Danish, English, Urdu</p>
+    <h2>Open to AI/ML, Data Engineering &amp; ML Platform Roles</h2>
+    <p>Copenhagen-based &bull; Open to remote &amp; relocation &bull; Danish, English, Urdu</p>
     <div class="cta-links">
       <a href="mailto:malik.ali642@gmail.com" class="cta-email">
         <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zM16 11.801V4.697l-5.803 3.546L16 11.8z"/></svg>
