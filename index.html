@@ -136,6 +136,9 @@ nav ul a:hover { color: #00BCD4; }
 .demo { margin: 0 0 40px; scroll-margin-top: 80px; }
 .demo video { width: 100%; display: block; border-radius: 10px; border: 1px solid rgba(255,255,255,0.1); background: #0D2137; }
 .demo figcaption { font-size: 0.76rem; color: rgba(255,255,255,0.42); margin-top: 10px; text-align: center; }
+.demo-light { margin-top: 44px; }
+.demo-light video { border: 1px solid #E4EBF2; box-shadow: 0 2px 14px rgba(0,0,0,0.05); }
+.demo-light figcaption { color: #7C93A8; }
 
 /* GCP PRACTICE */
 .gcp-section { background: #fff; }
@@ -271,6 +274,13 @@ footer { background: #0A1929; text-align: center; padding: 24px 0; font-size: 0.
         <div class="highlight-card"><div class="icon" style="background:#FFF3E0;">&#9880;</div><h3>Data Engineering</h3><p>BigQuery, dbt, PySpark, Airflow, Beam, Pub/Sub — the full modern data stack.</p></div>
       </div>
     </div>
+    <figure class="demo demo-light" id="architecture-reel">
+      <video controls muted playsinline preload="none" poster="assets/architecture-reel-poster.jpg">
+        <source src="assets/architecture-reel.mp4" type="video/mp4">
+        <a href="assets/architecture-reel.mp4">Download the walkthrough (7&nbsp;MB)</a>
+      </video>
+      <figcaption>How both platforms are built &mdash; architecture, data pipelines, MLOps, and one bug traced from symptom to decision (2:06)</figcaption>
+    </figure>
   </div>
 </section>
 
