@@ -133,7 +133,7 @@ nav ul a:hover { color: #00BCD4; }
 @media (max-width: 768px) { .shot-grid { grid-template-columns: 1fr; } }
 
 /* DEMO VIDEO */
-.demo { margin: 0 0 40px; }
+.demo { margin: 0 0 40px; scroll-margin-top: 80px; }
 .demo video { width: 100%; display: block; border-radius: 10px; border: 1px solid rgba(255,255,255,0.1); background: #0D2137; }
 .demo figcaption { font-size: 0.76rem; color: rgba(255,255,255,0.42); margin-top: 10px; text-align: center; }
 
@@ -198,6 +198,7 @@ footer { background: #0A1929; text-align: center; padding: 24px 0; font-size: 0.
   nav ul li { flex: 0 0 auto; }
   .hero { padding: 150px 0 60px; }
   section { padding: 52px 0; }
+  .demo { scroll-margin-top: 110px; }
 }
 @media (prefers-reduced-motion: reduce) {
   .fade-up { opacity: 1; transform: none; transition: none; }
@@ -276,7 +277,7 @@ footer { background: #0A1929; text-align: center; padding: 24px 0; font-size: 0.
     <div class="project-links">
       <a href="https://marketlenspro.app" target="_blank" rel="noopener noreferrer" class="proj-link proj-live">&#9679; View Live &mdash; marketlenspro.app</a>
     </div>
-    <figure class="demo">
+    <figure class="demo" id="marketlens-demo">
       <video controls muted playsinline preload="none" poster="assets/marketlens-demo-poster.jpg">
         <source src="assets/marketlens-demo.mp4" type="video/mp4">
         <a href="assets/marketlens-demo.mp4">Download the demo (3&nbsp;MB)</a>
@@ -316,7 +317,7 @@ footer { background: #0A1929; text-align: center; padding: 24px 0; font-size: 0.
     <div class="project-links">
       <a href="https://energylens-984734198948.europe-north1.run.app" target="_blank" rel="noopener noreferrer" class="proj-link proj-live">&#9679; View Live Dashboard</a>
     </div>
-    <figure class="demo">
+    <figure class="demo" id="energylens-demo">
       <video controls muted playsinline preload="none" poster="assets/energylens-demo-poster.jpg">
         <source src="assets/energylens-demo.mp4" type="video/mp4">
         <a href="assets/energylens-demo.mp4">Download the demo (3&nbsp;MB)</a>
